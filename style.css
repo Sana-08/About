@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    padding: 3rem;
+}
+
+#all{
+    font-size: 1.2rem;
+}
+
+#goal{
+    font-size: 1.2rem;
+}
+
+#his{
+    font-size: 1.2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#pera {
+    text-align: center;
+    color: #617D98;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.main {
+    display: flex;
+    gap: 2rem;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    margin-top: 3rem;
+}
+
+#image {
+    height: 32rem;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.indicator {
+    padding: 1.5rem 0;
+
+}
+
+.indicator li {
+    display: flex;
+    align-items: center;
+    padding: 10px 2rem;
+    cursor: pointer;
+    font-size: .875rem;
+    color: black;
+    border-right: 3px solid transparent;
+}
+
+.indicator li:hover {
+    background: #562BF7;
+}
+
+.indicator li.active {
+    border-right-color: #562BF7;
+    color: #562BF7;
+    background: #F3F0FF;
+}
+
+.content {
+    padding: 1.5rem 2rem;
+}
+
+.content li {
+    display: none;
+}
+
+.content li.active {
+    display: block;
+}
+
+.content li h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: .75rem;
+}
+
+.content li p {
+    margin-bottom: .5rem;
+    color: #617D98;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
